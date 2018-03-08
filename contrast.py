@@ -8,7 +8,8 @@ img = Image.open('img/pollen.jpg')
 arr = np.asarray(img)
 a = deepcopy(arr)
 
-print(arr[0])
+# print just to see different
+#print(arr[0])
 
 size = len(arr)
 sub = len(arr[1])
@@ -31,7 +32,14 @@ for i in range(len(arr)):
     for j in range(len(arr)):
         y = arr[i][j]
         a[i][j]= contrast(y)
-        
+
+
+
+plt.subplot(2, 2, 1)
+plt.imshow(img)
+plt.subplot(2, 2, 2)
 plt.imshow(a)
-print(a[0])
+
+# print just to see different
+#print(a[0])
 plt.show()
