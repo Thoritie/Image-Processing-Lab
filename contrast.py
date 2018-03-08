@@ -11,10 +11,11 @@ a = deepcopy(arr)
 # print just to see different
 #print(arr[0])
 
-size = len(arr)
-sub = len(arr[1])
-print(size)
-print(sub)
+# to make it clear about size
+# size = len(arr)
+# sub = len(arr[1])
+# print(size)
+# print(sub)
 
 def contrast(y):
     if(y >= 0 & y <= 100):
