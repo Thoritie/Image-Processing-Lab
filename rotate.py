@@ -18,7 +18,7 @@ def rotaion(x,y,angle):
 #gray level img
 plt.gray()
 
-img = Image.open('img/shapesAs4.png')
+img = Image.open('img/cameraman.png')
 img = numpy.asarray(img)
 
 # copy list not reference

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 #im = Image.open('img/LenaLow.jpg')
-img = cv2.imread('img/LenaLow.png')
+img = cv2.imread('img/hill.jpg')
 img = img/255.0
 img_power_law_transformation = cv2.pow(img,3)
 
